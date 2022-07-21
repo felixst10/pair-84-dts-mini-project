@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@mui/material";
 
-const HeaderHome = () => {
+const Navbar = () => {
   return (
     <>
       <div id="header">
@@ -13,4 +13,4 @@ const HeaderHome = () => {
   );
 };
 
-export default HeaderHome;
+export default Navbar;

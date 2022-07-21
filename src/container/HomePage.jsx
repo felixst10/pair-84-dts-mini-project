@@ -1,10 +1,8 @@
-import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import tmdbInstancePopular from "../apis/tmdbPopular";
 import CardMovie from "../components/CardMovie";
 import { Link } from "react-router-dom";
-
-import HeaderHome from "../components/HeaderHome";
+import Navbar from "../components/Navbar";
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
@@ -25,7 +23,7 @@ const HomePage = () => {
   return (
     <>
       <div>
-        <HeaderHome />
+        <Navbar />
       </div>
       <div>Popular</div>
       {movies.map((movie) => {

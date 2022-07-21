@@ -3,7 +3,7 @@
 
 import LoginPage from "./components/LoginPage";
 import HomePage from "./container/HomePage";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
